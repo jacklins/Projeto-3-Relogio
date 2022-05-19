@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.display {
+    text-align: center;
+    padding: 0px;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 2rem;
+    font-family: 'Macondo', cursive;
+
+}
